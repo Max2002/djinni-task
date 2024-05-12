@@ -1,0 +1,72 @@
+.cardData {
+  width: 400px;
+  border-radius: 15px;
+  padding: 15px 30px;
+  background: #c5d5e6;
+
+  @media (max-width: 430px) {
+    width: 300px;
+  }
+
+  @media (max-width: 380px) {
+    width: 250px;
+    padding: 15px;
+  }
+
+  @media (max-width: 320px) {
+    width: 230px;
+    padding: 10px 5px;
+  }
+
+  input {
+    font-family: "Geometria-Bold", sans-serif;
+    height: 45px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.titleCardData {
+  font-family: "Geometria-Bold", sans-serif;
+  color: #eaf0f6;
+  margin-bottom: 10px;
+
+  @media (max-width: 380px) {
+    font-size: 12px;
+  }
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  input {
+    width: 22%;
+
+    @media (max-width: 320px) {
+      width: 23%;
+      font-size: 10px;
+    }
+  }
+}
+
+.term_CVV {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.termCard, .CVCCard {
+  width: 40%;
+}
+
+.CVCCard, .termCard {
+  input {
+    width: 100%;
+  }
+}

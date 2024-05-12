@@ -1,0 +1,9 @@
+export { ReactComponent as HandSvg } from './hand.svg';
+export { ReactComponent as WalletSvg } from './wallet.svg';
+export { ReactComponent as ClothesSvg } from './clothes.svg';
+export { ReactComponent as HeartSvg } from './heart.svg';
+export { ReactComponent as VisaSvg } from './visa.svg';
+export { ReactComponent as TerminalSvg } from './terminal.svg';
+export { ReactComponent as WebMoneySvg } from './webmoney.svg';
+export { ReactComponent as PayPalSvg } from './paypal.svg';
+export { ReactComponent as TriangleSvg } from './triangle.svg';

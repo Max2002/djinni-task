@@ -1,0 +1,45 @@
+.wrapperInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+input {
+  font-family: 'Geometria-Bold', sans-serif;
+  background: #f3f7fa;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  padding: 13px;
+  color: #363b5d;
+  transition: .3s;
+}
+
+input:hover, input:focus {
+  box-shadow: 0 0 4px #8488a2;
+}
+
+.errorState {
+  box-shadow: 0 0 4px #f60202;
+}
+
+.errorState:focus, .errorState:hover {
+  box-shadow: 0 0 4px #f60202;
+}
+
+.label {
+  font-family: 'Geometria-Bold', sans-serif;
+  color: #939aa3;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.error {
+  font-family: 'Geometria-Bold', sans-serif;
+  margin-top: 5px;
+  color: red;
+  font-size: 12px;
+}
+

@@ -1,0 +1,20 @@
+.title {
+  width: 100%;
+  text-align: center;
+  color: #363b5d;
+  font-weight: bold;
+  font-size: 65px;
+  font-family: 'Geometria-Extra-Bold', sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 24px;
+  }
+}
