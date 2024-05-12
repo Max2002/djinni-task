@@ -65,8 +65,6 @@
   width: 40%;
 }
 
-.CVCCard, .termCard {
-  input {
-    width: 100%;
-  }
+.CVCCard input, .termCard input {
+  width: 100%;
 }
