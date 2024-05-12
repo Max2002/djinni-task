@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Geometria';
+  src: url('../../assets/fonts/Geometria/Geometria.ttf');
+}
+
+@font-face {
+  font-family: 'Geometria-Bold';
+  src: url('../../assets/fonts/Geometria/Geometria-Bold.woff2');
+}
+
+.form {}
